@@ -1,0 +1,22 @@
+{
+  "name": "@arisor/cli",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "kun_yk <kun_yk@yunzhijia.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@arisor/cli.test.js"
+  }
+}
